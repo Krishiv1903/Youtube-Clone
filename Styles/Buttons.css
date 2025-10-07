@@ -1,0 +1,70 @@
+            .subscribe-button
+            {
+                background-color: rgba(174, 2, 2, 0.812);
+                color: white;
+                border: none;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 16px;
+                padding-right: 16px;
+                border-radius: 3px;
+                cursor: pointer;
+                margin-right: 9px;
+                margin-left: 20px;
+                transition: opacity 0.15s;
+                vertical-align: top;
+            }
+            .subscribe-button:hover
+            {
+                opacity: 0.8;
+            }
+            .subscribe-button:active
+            {
+                opacity: 0.4;
+            }
+            .join-button
+            {
+                background-color: white;
+                border-color: rgba(0, 87, 227, 0.796);
+                border-style: solid;
+                color: rgba(0, 87, 227, 0.796);
+                border-radius: 2px;
+                border-width: 1px;
+                cursor: pointer;
+                padding-top: 9px;
+                padding-bottom: 9px;
+                padding-left: 16px;
+                padding-right: 16px;
+                font-weight: bold;
+                transition: background-color 0.15s, color 0.15s;
+            }
+            .join-button:hover
+            {
+                background-color: rgba(0, 87, 227, 0.796);
+                color: white;
+            }
+            .join-button:active
+            {
+                opacity: 0.6;
+            }
+            .tweet-button
+            {
+                background-color: rgb(2, 158, 255);
+                color: white;
+                border: 63px;
+                border-radius: 18px;
+                font-weight: bold;
+                padding-top: 9px;
+                padding-bottom: 9px;
+                padding-left: 16px;
+                padding-right: 16px;
+                font-size: 16px;
+                margin-left: 9px;
+                cursor: pointer;
+                transition: box-shadow 0.15s;
+                vertical-align: top;
+            }
+            .tweet-button:hover
+            {
+                box-shadow: 2px 5px 10px rgba(110, 98, 98, 0.15);
+            }
